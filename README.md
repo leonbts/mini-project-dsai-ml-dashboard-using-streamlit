@@ -40,8 +40,10 @@ Must contain the following plots:
 
 ### Prediction page
 
-Must contain a `st.text_area()` that will allow the user to input a movie description and get a prediction from the movie rating prediction model created yesterday.
-It also must contain an `st.button("Get Your Prediction")` button.
+<!-- Must contain a `st.text_area()` that will allow the user to input a movie description and get a prediction from the movie rating prediction model created yesterday.
+It also must contain an `st.button("Get Your Prediction")` button. -->
+
+Must contain a `st.text_area()` that will allow the user to input a movie description and get the top 3 most similar movies by description. Display the matches’ title and rating. It also must contain an `st.button(“Get Your Prediction”)` button. HINT: use the embedding model (Sentence Transformer) and the cosine similarity function.
 
 
 ## Submission
