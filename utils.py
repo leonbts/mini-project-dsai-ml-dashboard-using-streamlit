@@ -8,7 +8,7 @@ import streamlit as st
 
 # ---- DB CONFIG ----
 DB_USER = os.getenv("SAKILA_USER", "root")
-DB_PASS = os.getenv("SAKILA_PASS", "Drachenritter8")
+DB_PASS = os.getenv("SAKILA_PASS", "password")
 DB_HOST = os.getenv("SAKILA_HOST", "localhost")
 DB_PORT = int(os.getenv("SAKILA_PORT", "3306"))
 DB_NAME = os.getenv("SAKILA_DB", "sakila")
